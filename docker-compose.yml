@@ -1,0 +1,13 @@
+version: "3"
+services:
+  node:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 30000:3000
+      - 35729:35729
+    volumes:
+      - ./:/usr/src/app
+      - ./log/node:/root/.npm/_logs/
+    tty: true

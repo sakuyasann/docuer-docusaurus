@@ -1,0 +1,23 @@
+# log
+/log
+
+# Dependencies
+/documents/node_modules
+
+# Production
+/documents/build
+
+# Generated files
+/documents/.docusaurus
+/documents/.cache-loader
+
+# Misc
+/documents/.DS_Store
+/documents/.env.local
+/documents/.env.development.local
+/documents/.env.test.local
+/documents/.env.production.local
+
+/documents/npm-debug.log*
+/documents/yarn-debug.log*
+/documents/yarn-error.log*
